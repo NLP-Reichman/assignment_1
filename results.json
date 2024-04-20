@@ -1,0 +1,19 @@
+{
+  "test_preprocess": {
+    "vocab_length": 1804
+  },
+  "test_lm": {
+    "english_2_gram_length": 749,
+    "english_3_gram_length": 8239,
+    "french_3_gram_length": 8286,
+    "spanish_3_gram_length": 8469
+  },
+  "test_eval": {
+    "en_en": 31.275313643914785,
+    "en_fr": 67.11839679880369,
+    "en_tl": 90.23203789449686,
+    "en_nl": 77.875343479504
+  },
+  "test_match": "TypeError(\"argument of type 'float' is not iterable\")",
+  "test_generate": "NameError(\"name 'generate' is not defined\")"
+}
