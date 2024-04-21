@@ -1,0 +1,32 @@
+{
+  "test_preprocess": {
+    "vocab_length": 1804
+  },
+  "test_lm": {
+    "english_2_gram_length": 748,
+    "english_3_gram_length": 8239,
+    "french_3_gram_length": 8286,
+    "spanish_3_gram_length": 8469
+  },
+  "test_eval": {
+    "en_en": 31.275313643914785,
+    "en_fr": 67.11839679880369,
+    "en_tl": 90.23203789449686,
+    "en_nl": 77.875343479504
+  },
+  "test_match": {
+    "en_en_3": 31.275,
+    "en_tl_3": 90.232,
+    "en_nl_3": 77.875
+  },
+    "test_generate": {
+      "english_1_gram": "I",
+      "english_2_gram": "I amanest. des: is ar T ",
+      "english_3_gram": "I ame https://t.co/RWall",
+      "english_4_gram": "I Lovery was a more the wh",
+      "spanish_2_gram": "Soy s de ht.co t.co de ",
+      "spanish_3_gram": "Soy la co/hNo de serta ",
+      "french_2_gram": "Je suis de les s s s: ps de",
+      "french_3_gram": "Je suis de de se le tre la "
+    }
+}
